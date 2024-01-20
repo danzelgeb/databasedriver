@@ -1,0 +1,7 @@
+name: DatabaseDriver
+version: '${project.version}'
+main: com.plunzish.databasedriver.DatabaseDriver
+api-version: '1.20'
+authors:
+  - Plunzi
+  - TheUnyCraft

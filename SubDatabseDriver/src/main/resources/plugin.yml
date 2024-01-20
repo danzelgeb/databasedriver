@@ -1,0 +1,4 @@
+name: SubDatabseDriver
+version: '${project.version}'
+main: net.plunzish.subdatabsedriver.SubDatabseDriver
+api-version: '1.20'
