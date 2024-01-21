@@ -1,0 +1,25 @@
+{
+  "master": {
+    "host": "localhost",
+    "port": 2345
+  },
+  "database": {
+    "type": "MySQL",
+    "mysql": {
+      "host": "localhost",
+      "port": 3306,
+      "user": "databasedriver",
+      "password": "test"
+    },
+    "mongodb": {
+      "host": "localhost",
+      "port": 3306,
+      "auth": {
+        "use" : true,
+        "user" : "databasedriver",
+        "password" : "test",
+        "database" : "admin"
+      }
+    }
+  }
+}
