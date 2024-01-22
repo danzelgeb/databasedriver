@@ -1,6 +1,6 @@
 package net.plunzish.subdatabsedriver.database.api;
 
-import net.plunzish.subdatabsedriver.database.api.impl.FinderAbstract;
+import net.plunzish.subdatabsedriver.database.api.impl.MatchingFinder;
 import org.bson.conversions.Bson;
 
 public interface IFinder {
@@ -11,7 +11,7 @@ public interface IFinder {
     Bson mongoFilter();
 
     static IFinder match(String id, Object value) {
-        return new FinderAbstract(id, value);
+        return new MatchingFinder(id, value);
     }
 
 }
