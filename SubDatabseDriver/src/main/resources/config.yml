@@ -1,0 +1,18 @@
+master:
+  host: "localhost"
+  port: 1234
+database:
+  type: "MYSQL"
+  mysql:
+    host: "localhost"
+    port: 3306
+    user: "admin"
+    password: "mySequrePasswd123"
+  mongodb:
+    host: "localhost"
+    port: 3306
+    auth:
+      enabled: false
+      user: "admin"
+      password: "mySequrePasswd123"
+      database: "admin"

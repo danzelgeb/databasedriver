@@ -20,7 +20,7 @@ public final class SubDatabaseDriver extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
+        //Check DB Type
     }
 
     @Override
